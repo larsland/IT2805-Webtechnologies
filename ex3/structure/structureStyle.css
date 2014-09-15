@@ -1,0 +1,43 @@
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    float: left;
+    width: 25%;
+}
+
+h1, h2 {
+    font-family: Arial;
+    margin: 0;
+    margin-left: 10%;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+hr {
+    width: 80%;
+}
+
+a.subsection {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial;
+}
+
+a.title {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+ul {
+    list-style: none;
+}

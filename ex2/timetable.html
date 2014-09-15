@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Timetable</title>
+		<style>
+		table, th, td {
+			margin-left: auto;
+			margin-right: auto;
+			border: solid black 1px;
+			border-collapse: collapse;
+		}		
+		h1, h3 {
+			font-family:Arial;
+		}
+		body {
+			background-color:white;
+		}
+		td a {
+			display:block;
+			width:100%;
+		}
+		h1 {
+			text-align: center;
+		}
+		p#menu {
+			text-align: center;
+		}
+		td.webtekBox {
+			background-color: #CCFF66;
+		}
+		td.infosysBox {
+			background-color: #99CCFF;
+		}
+		td.irBox {
+			background-color: #FFAD5C;
+		}
+		td.aiBox {
+			background-color: #FF5F5F;
+		}
+		td.progsikBox {
+			background-color: #FF99FF;
+		}
+		
+		table#timeTable {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		</style>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Timeplan</h1>
+		<p id="menu"><a href="#webtek">Webteknologi</a> |
+		<a href="#infosys">Informasjonssystemer</a> | 
+		<a href="#ir">Informasjonsgjenfinning</a> | 
+		<a href="#ai">Introduksjon til kunstig intelligens</a> | 
+		<a href="#progsik">Programvaresikkerhet</a></p>
+		
+
+		<hr><br>
+
+		<!--TABELL-->
+		<table id="timeTable">
+		<tr>
+			<td>kl.</td>
+			<td>Mandag</td>
+			<td>Tirsdag</td>
+			<td>Onsdag</td>
+			<td>Torsdag</td>
+			<td>Fredag</td>
+		<tr>
+			<td>08:15-09:00</td>
+			<td></td>
+			<td class="infosysBox" rowspan="3"><a href="#infosys">Infosys</a></td>
+			<td></td>
+			<td class="irBox" rowspan="2"><a href="#ir">IR</a></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>09:15-10:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+			
+		</tr>
+		<tr>
+			<td>10:15-11:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td>11:15-12:00</td>
+			<td></td>
+			<td></td>
+			<td class="aiBox"><a href="#ai">LogRes</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>12:15-13:00</td>
+			<td></td>
+			<td class="aiBox" rowspan="2"><a href="#ai">LogRes</a></td>
+			<td></td>
+			<td></td>
+			<td class="progsikBox" rowspan="2"><a href="#progsik">ProgSik</a></td>
+		</tr>
+		<tr>
+			<td>13:15-14:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td>14:15-15:00</td>
+			<td class="webtekBox" rowspan="2"><a href="#webtek">WebTek</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="progsikBox" rowspan="2"><a href="#progsik">ProgSik</a></td>
+		</tr>
+		<tr>
+			<td>15:15-16:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>16:15-17:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="irBox" rowspan="2"><a href="#ir">IR</a></td>
+			<td></td>
+		
+		</tr>
+		<tr>
+			<td>17:15-18:00</td>
+			<td></td>
+			<td class="aiBox" rowspan="2"><a href="#ai">LogRes</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>18:15-19:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="infosysBox" rowspan="2"><a href="#infosys">Infosys</a></td>
+			
+		</tr>
+		<tr>
+			<td>19:15-20:00</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		
+		</tr>
+
+		</table><br><hr>
+
+		<h3><a id="webtek" href="http://www.ntnu.no/studier/emner/IT2805#tab=omEmnet">Webteknologi</a></h3>
+		<p>I dette emnet er det fokus på World Wide Web som en plattform for interaktive applikasjoner, publisering av informasjon og sosiale tjenester. Utvikling av web-applikasjoner krever brei kunnskap om den underliggende teknologien, formater og standarder som World Wide Web bygger på og i dette emnet lærer du om den underliggende kommunikasjonsprotokollen HTTP, markup språk som HTML, XHTML og XML, språk for å spesifisere formattering og transformasjoner som CSS og XSLT, event-basert programmering på klient-siden og dokumentmodellen DOM, interaktiv grafikk og multimediainnhold på web. Emnet gir også en innføring i søkemotorer og webindekser og aspekter ved innholdsforvaltning som standardiserte beskrivelser av innhold og regelverk for opphavsrett.</p>
+		<h3><a id="infosys" href="http://www.ntnu.no/studier/emner/TDT4175#tab=omEmnet">Informasjonssystemer</a></h3>
+		<p>Taksonomier for ulike typer informasjonssystemer, ERP-systemer: typisk funksjonalitet, metodikk ved valg og innføring. IS strategi, prosessforbedring. Arbeidsmetodikk ved utvikling av informasjonssystemer: analyse av organisasjoners behov, modellering av arbeidsprosesser (nåsituasjon og ønsket situasjon), evaluering av kvalitet for modeller og systemer.</p>
+		<h3><a id="ir" href="http://www.ntnu.no/studier/emner/TDT4117#tab=omEmnet">Informasjonsgjenfinning</a></h3>
+		<p>Emnet tar vare på den delen av informatikkfaget som omfatter automatisk lagring og gjenfinning av dokumenter. I denne sammenhengen inkluderer dokumentbegrepet også lyd og bilde. Emnet inneholder disipliner som filorganisering, queryoperasjoner, dokumentoperasjoner og kunnskapsbasert gjenfinning av tekstuelle og multimedia informasjon.</p>
+		<h3><a id="ai" href="http://www.ntnu.no/studier/emner/TDT4136#tab=omEmnet">Introduksjon til kunstig intelligens</a></h3>
+		<p>Emnet starter med å beskrive metoder for problemløsning ved hjelp av heuristisk søk i tilstandsrom. Deretter beskrives forskjellige kunnskapspresentasjonsspråk og slutningsmekanismer for maskinell 
+		problemløsning. Representasjon i form av predikatlogikk, regler, rammer og semantiske nett behandles, og knyttes til hovedformene for resonnering - særlig regelbasert resonnering. Emnet behandler videre arkitekturer som integrerer forskjellige resonneringsmetoder, agentbaserte arkitekturer, samt arkitekturer for interaktiv problemløsning i et menneske-maskin samspill. Det gis anvendelseseksempler underveis for å belyse metodene.</p>
+		<h3><a id="progsik" href="http://www.ntnu.edu/studies/courses/TDT4237#tab=omEmnet">Programvaresikkerhet</a></h3>
+		<p>Kurset tar for seg sikkerhet i alle deler av utviklingsprosessen for programvare: kravinnhenting, design, implementasjon og testing. For å utvikle sikrere systemer må sikkerhetsfokus være innarbeidet i alle deler av utviklingsprosessen. Vi vil i kurset ta for oss hvilke trusler og angrep programvare er utsatt for og hvordan man kan ta i bruk teknikker og forsvarsmekanismer for å utvikle programvare som i størst mulig grad er motstandsdyktig mot eksisterende, og nye, angrep. Kurset har et hovedfokus på web-baserte systemer.</p>
+	</body>
+</html>
