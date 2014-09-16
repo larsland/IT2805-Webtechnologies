@@ -35,7 +35,6 @@ ul li:hover > ul{
 ul {
 	list-style: none;
 	padding: 0;
-	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -46,8 +45,7 @@ ul ul li {
 	float:none;
 }
 div.header {
-	width:70%;
-	background-color: #2E354C;
+
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
@@ -55,7 +53,7 @@ div.header {
 }
 
 nav.wrapper {
-	width: 70%;
+
 	background-color: #3366FF;
 	overflow: auto;
 	margin: 0 auto;
