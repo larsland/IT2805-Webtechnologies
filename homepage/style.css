@@ -3,8 +3,9 @@ body {
 }
 
 header {
-    overflow: auto;
     background-color: #4C4C4C;
+    overflow: auto;
+    margin-bottom: 5%;
 }
 
 a.button {
@@ -39,6 +40,7 @@ div.container {
     padding: 0;
     width: 70%;
 }
+
 div.block {
     overflow: hidden;
     width: 50%;
@@ -46,13 +48,17 @@ div.block {
     display: inline-block;
     text-align: center;
     float: left;
-    margin-top: 10%;
+   
 }
 div.footer {
     display: block;
     width: 100%;
+    height: 80px;
     text-align: center;
-    margin-top: 50px;
+    background-color: #4C4C4C;
+    margin-top:5%;
+    position: absolute;
+    bottom:0;
 }
 
 .block p, h2 {
