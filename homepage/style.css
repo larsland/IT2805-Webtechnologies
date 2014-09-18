@@ -85,7 +85,13 @@ img.mediaLink {
 }
 img.mediaLink:hover {
     opacity: 0.3;
+}
 
+h1.indexHeader {
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    color: #4C4C4C;
 }
 
 
