@@ -35,6 +35,7 @@ hr.header {
 	color: #666666;
 	background-color: #666666;
 	height: 3px;
+	border: none;
 }
 
 hr.section {
@@ -43,6 +44,7 @@ hr.section {
 	height: 7px;
 	margin-top: 30px;
 	margin-bottom: 33px;
+	border: none;
 }
 
 p.header {
