@@ -1,6 +1,7 @@
 div.container {
 	width: 60%;
 	margin: 0 auto;
+	margin-bottom: 5%;
 }
 
 div.row {
@@ -82,4 +83,67 @@ img.selfie {
 	margin-top: 50px;
 	margin-left: 27px;
 	border: solid #666666 3px;
+}
+
+header.headBox {
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding-top: 49px;
+}
+
+header.menu {
+    background-color: #4C4C4C;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a.button {
+    text-align: center;
+    display: block;
+    background: #4C4C4C;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+a.button:hover {
+    color: orange;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+li {
+   display: inline-block;
+}
+div.footer {
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #4C4C4C;
+    position: fixed;
+    bottom:0;
+}
+img.mediaLink {
+    width: 25px;
+    padding-right: 5px;
+}
+img.mediaLink:hover {
+    opacity: 0.3;
+
 }
