@@ -60,7 +60,7 @@ div.footer {
     height: 60px;
     text-align: center;
     background-color: #4C4C4C;
-    margin-top:5%;
+    margin-top: 5%;
     position: fixed;
     bottom:0;
 }
@@ -92,6 +92,7 @@ h1.indexHeader {
     font-size: 30px;
     text-align: center;
     color: #4C4C4C;
+    margin: 0;
 }
 
 
