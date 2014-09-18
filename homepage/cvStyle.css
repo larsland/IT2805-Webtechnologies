@@ -1,0 +1,85 @@
+div.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+div.row {
+	width: 100%;
+	display: inline-block;
+}
+
+div.left {
+	float: left;
+	width: 17%;
+	margin-right: 5%;
+}
+div.right {
+	display: inline-block;
+	width: 70%;
+}
+
+h2 {
+	color: #4775FF;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 50px;
+	color: #666666;
+}
+
+hr.header {
+	color: #666666;
+	background-color: #666666;
+	height: 3px;
+}
+
+hr.section {
+	color: #4775FF;
+	background-color: #4775FF;
+	height: 7px;
+	margin-top: 30px;
+	margin-bottom: 33px;
+}
+
+p.header {
+	font-weight: bold;
+	font-family: Arial;
+}
+
+p.info {
+	font-style: italic;
+	font-family: Arial;
+}
+
+p.contact {
+	font-style: italic;
+	color: gray;
+	font-family: Arial;
+}
+p.cv {
+	text-align: right;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 30px;
+	color: gray;
+	margin-bottom: 50px;
+}
+p.period {
+	text-align: right;
+	font-family: Arial;
+}
+p.normal {
+	font-family: Arial;
+
+}
+
+img.selfie {
+	width: 160px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 27px;
+	border: solid #666666 3px;
+}
