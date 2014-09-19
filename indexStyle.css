@@ -2,7 +2,7 @@
     text-align: center;
     display: block;
     background: #3366FF;
-    width: 101.1px;
+    width: 100px;
     height: 40px;
     line-height: 40px;
 }
@@ -36,7 +36,7 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0 auto;
-	text-align: center;
+	
 }
 ul li {
 	float:left;
@@ -45,7 +45,6 @@ ul ul li {
 	float:none;
 }
 div.header {
-
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
@@ -53,8 +52,7 @@ div.header {
 }
 
 nav.wrapper {
-
-	background-color: #3366FF;
+	width: 400px;
 	overflow: auto;
 	margin: 0 auto;
 	text-align: center;
