@@ -1,3 +1,96 @@
 body {
-	
+	margin: 0;	
+}
+
+div.box {
+	margin-right: 100px;
+	margin-left: 100px;
+	display: inline-block;
+	padding: 0;
+}
+
+div.container {
+	margin-top: 170px;
+	padding: 0;
+	display: inline-block;
+}
+
+div.containerLeft {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+div.containerRight {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+div.ourSite {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.siteMap {
+	border: solid black 2px;
+	width: 250px;
+	display: inline-block;
+}
+
+header {
+	background-color: #CCFF99;
+	padding: 0;
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+}
+
+h2 {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 40px;
+}
+
+h1.main {
+	font-family: Arial;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 10px;
+}
+
+p {
+	font-family: Arial;
+
+}
+
+ul.menu {
+	list-style: none;
+	text-align: center;
+}
+
+li.menu {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial;
+}
+
+h3.group {
+	font-family: Arial;
+	font-style: italic;
+	font-size: 15px;
+	color: gray;
+	text-align: center;
 }
