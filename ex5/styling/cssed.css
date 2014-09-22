@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #1A1A1A;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 30px;
+	overflow: hidden;
+	color: white;
+	display: block;
+	font-family: Helvetica;
+}
+
+header h1 {
+	margin: 0;
+	margin-top: 10px;
+}
+
+#main {
+	width: 50%;
+	margin: 0 auto;
+	font-family: Georgia;
+}
+
+#articleHeader {
+	color: #1A1A1A;
+	background-color: white;
+	font-size: 40px;
+	font-family: Helvetica;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+img {
+	border-radius: 15px;
+}
+
+#leadParagraph {
+	font-family: Helvetica;
+}
+
+#byline {
+	color: #4D4D4D;
+	font-family: Georgia;	
+}
+
+articleTitle {
+	font-weight: bold;
+	font-family: Helvetica;
+}
