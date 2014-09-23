@@ -195,3 +195,7 @@ div.siteMap {
 	display: inline-block;
 }
 
+p.anchors {
+	text-align: center;
+}
+
