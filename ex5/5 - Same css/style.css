@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+header {
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #4C4C4C;
+	color: white;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #4C4C4C;
+	overflow: auto;
+	color: white;
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav {
+	width: 100%;
+	background-color: #4C4C4C;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+section.norm {
+	width: 60%;
+	margin: 0 auto;
+	font-family: Arial;
+	margin-bottom: 5%;
+}
+
+
+.button {
+	display: block;
+	background-color: #4C4C4C;
+	text-decoration: none;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+}
+
+.button:hover {
+	background-color: #999999;
+}
+
+
+/*-----------CSS FOR assignments.html------------*/
+nav.assignments {
+	width: 600px;
+	background-color: #4C4C4C;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto;
+}
+
+nav ul ul {
+	display: none;
+}
+
+.float {
+	float: left;
+	
+}
+
+nav ul li:hover > ul{
+	display:block;
+	position:absolute;
+}
+
+div.header {
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+nav ul ul li {
+	float: none;
+}
+
+
+
+/*-----------CSS FOR schedule.html------------*/
+
+table, th, td {
+		margin-left: auto;
+		margin-right: auto;
+		border: solid black 1px;
+		border-collapse: collapse;
+}
+
+td a {
+	display:block;
+	width:100%;
+}
+
+td.webtekBox {
+	background-color: #CCFF66;
+}
+td.infosysBox {
+	background-color: #99CCFF;
+}
+td.irBox {
+	background-color: #FFAD5C;
+}
+td.aiBox {
+	background-color: #FF5F5F;
+}
+td.progsikBox {
+	background-color: #FF99FF;
+}
+
+table#timeTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.schedule {
+	width: 70%;
+	margin: 0 auto;
+	font-family: Arial;
+	margin-bottom: 5%;
+}
+
+
+
+/*-----------CSS FOR project.html------------*/
+
+div.box {
+	margin-right: 100px;
+	margin-left: 100px;
+	display: inline-block;
+	padding: 0;
+}
+
+div.container {
+	padding: 0;
+	display: inline-block;
+}
+
+div.containerLeft {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+div.containerRight {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+div.ourSite {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.siteMap {
+	border: solid black 2px;
+	width: 250px;
+	display: inline-block;
+}
+
