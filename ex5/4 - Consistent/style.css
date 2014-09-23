@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+}
+
+img {
+	height: 300px;
+}
+
+h1 {
+	font-family: Arial;
+	text-align: center;
+}
+
+p {
+	font-family: Georgia;
+}
+
+div.footer {
+	background-color: #4C4C4C;
+	margin: 0;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	
+}
+
+nav {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+div.content {
+	width: 60%;
+	display: inline-block;
+	margin-bottom: 10%;
+	
+}
+
+div.container {
+	width: 80%;
+	margin: auto;
+}
+
+header  {
+	
+}
+
+p.footerText {
+	font-style: italic;
+	color: white;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+a:visited:hover {
+	color: blue;
+}
+
+a:visited {
+	color: black;
+}
+ul {
+	list-style: none;
+}
+li {
+	padding-bottom: 10px;
+}
