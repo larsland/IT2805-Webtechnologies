@@ -4,6 +4,7 @@ body {
 
 img {
 	height: 300px;
+	border: solid #4C4C4C 2px;
 }
 
 h1 {
@@ -72,9 +73,17 @@ a:visited:hover {
 a:visited {
 	color: black;
 }
-ul {
-	list-style: none;
-}
 li {
 	padding-bottom: 10px;
+}
+hr {
+	border: none;
+	height: 2px;
+	color: #4C4C4C;
+	background-color: black;
+}
+
+p.arrows {
+	text-align: center;
+	font-size: 30px;
 }
