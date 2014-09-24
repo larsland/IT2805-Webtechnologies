@@ -1,11 +1,12 @@
 h1 {
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 }
 
 p {
-	font-family: Georgia;
+	font-family: Georgia, serif;
 }
 
 a:hover {
 	color:green;
 }
+
