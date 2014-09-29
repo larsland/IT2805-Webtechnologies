@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+header {
+	background-color: #4C4C4C;
+	height: 70px;
+	font-family: Arial;
+	overflow: hidden;
+	margin-bottom: 50px;
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+footer {
+	background-color: #4C4C4C;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	font-style: italic;
+}
+
+
+#comments {
+	height: 100px;
+	width: 400px;
+}
+
+input, select {
+	margin-bottom: 5px;
+
+}
+label {
+	margin-right: 100px;
+	display: block;
+	clear: both;
+}
+
+div.container {
+	width: 70%;
+	margin: 0 auto;
+	
+}
+div.row {
+	margin-bottom: 5px;
+
+	margin: 0;
+}
+div.boxLeft {
+	width: 25%;
+	float: left;
+	margin: 0;
+}
+div.boxRight {
+	width: 75%;
+	display: inline-block;
+	margin: 0;
+}
+div.submit {
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+}
