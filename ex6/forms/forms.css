@@ -69,11 +69,7 @@ div.submit {
 	padding-top: 30px;
 }
 
-/*input:required, textarea:required {
-	border: 1px solid red;
-}*/
 
 input:invalid {
 	border: 1px solid red;
-	placeholder: "This field is required!!!";
 }
