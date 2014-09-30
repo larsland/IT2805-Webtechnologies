@@ -68,3 +68,7 @@ div.submit {
 	text-align: center;
 	padding-top: 30px;
 }
+
+input:required, textarea:required {
+	border: 1px solid red;
+}
