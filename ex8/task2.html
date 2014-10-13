@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task 2</title>
+		<meta charset="UTF-8">
+		<script>
+			var strings = [
+				"Hello Billy!", 
+				"Word of letters", 
+				"Wait what!?", 
+				"I don't even..", 
+				"How can she slap!?", 
+				"Is this real world?", 
+				"Don't put baby in a corner", 
+				"Schmuud", 
+				"Wat up",
+				"Clean dancing"];
+
+			function getString() {
+				var selected = strings[Math.floor(Math.random()*strings.length)];
+				document.getElementById("output").value = selected;
+			}
+
+			window.addEventListener('load', getString);
+		</script>
+	</head>
+	<body>
+		<output class="style" id ="output"></output>
+	</body>
+</html>
