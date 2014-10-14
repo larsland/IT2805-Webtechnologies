@@ -1,39 +1,76 @@
-var display = document.getElementById("display-area"),
+var	display = document.getElementById("display-area"),
 	toggle = document.getElementById("toggle-button"),
-	reset = document.getElementById("reset-button"),
-	mSeconds = 0,
-	seconds = 0,
-	minutes = 0,
-	hours = 0;
+	clear = document.getElementById("reset-button"),
+	running,
+	startTime,
+	interval,
+	temptime = 0
 
-function add() {
-	mSeconds++;
-	if (mSeconds >= 1000) {
-		mSeconds = 0;
-		seconds++;
-		if (seconds >= 60) {
-			seconds = 0;
-			minutes++;
-			if (minutes >= 60) {
-				minutes = 0;
-				hours++;
-			}
+	//Button actions
+	function toggleBtn() {
+		if (!running) {
+			startTime = new Date()
+			running = true
+			interval = window.setInterval(add, 1)
+		}
+		else {
+			running = false
+			window.clearInterval(interval)
+			temptime += (Date.now() - startTime)
 		}
 	}
-}
-
-function startTimer() {
-	while (hours < 2) {
-		setTimeout(function(){add()}, 1);
-		display.textContent = hours + ":" + minutes + ":" + seconds + ":" + mSeconds;
+	function clearBtn() {	
+		temptime = 0
+		running = false
+		startTime = new Date()
+		window.clearInterval(interval)
+		display.innerHTML = "00:00:00.000"
 	}
-}
 
-function clear() {
-	display.textContent = "00:00:00.000";
-}
+	//Updating the display field, and adding time
+	function add() {
+		var time = new Date().getTime() - startTime.getTime()
+		display.value = formatTime(time + temptime)
+	}
 
-toggle.onclick = startTimer;
+	//Functions to format the dreaded Date object
+	function formatTime(time) {
+       	var h = m = s = ms = 0;
+        var newTime = "";
+        h = Math.floor(time / (60 * 60 * 1000));
+        time = time % (60 * 60 * 1000);
+        m = Math.floor(time / (60 * 1000));
+        time = time % (60 * 1000);
+        s = Math.floor(time / 1000);
+        ms = time % 1000;
+        newTime = this.padTime(h, 2) + ":" + this.padTime(m, 2) 
+        + ":" + this.padTime(s, 2) + "."+ this.padTime(ms, 3); 
+        return newTime;
+    }
+    function padTime(time, size) {
+        var s = "000" + time;
+        return s.substr(s.length - size);
+    }
+
+    //Adding listeners to buttons
+	toggle.addEventListener('click', function(event) {
+		toggleBtn()
+		event.preventDefault()
+	})
+	clear.addEventListener('click', function(event) {
+		clearBtn()
+		event.preventDefault()
+	})
+
+
+
+
+
+
+
+
+
+
 
 
 
