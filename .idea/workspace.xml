@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ex9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8e7128-ddf9-4fe7-b699-effbd87919d8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/design.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/cv.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/cvStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/CV1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/CV2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/LarsCV.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/cv.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/facebook2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/facebook2Hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/githubHover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/infamous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/instagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/learning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/linkedinHover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/liverpool.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/online.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/selfie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/timeplan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/twitch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/twitter2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/twitter2Hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/vg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/images/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexStyle.css" afterPath="$PROJECT_DIR$/indexStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Webteknologi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +61,18 @@
     <favorites_list name="Webteknologi" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="indexStyle.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/indexStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16848674" vertical-offset="0" max-vertical-offset="1152">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -37,18 +85,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/indexStyle.css" />
         <option value="$PROJECT_DIR$/ex9/todo.css" />
         <option value="$PROJECT_DIR$/ex9/todo.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ex9/todo-list/todo.js" />
+        <option value="$PROJECT_DIR$/ex9/todo-list/newTodo.js" />
+        <option value="$PROJECT_DIR$/indexStyle.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="51" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1315" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -85,16 +135,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webteknologi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webteknologi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -105,6 +145,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/git/larsla.no" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -163,7 +205,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -205,18 +247,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/ex9/todo-list/todo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexStyle.css">
+    <entry file="file://$PROJECT_DIR$/ex9/todo-list/todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5444617" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex9/todo-list/todo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
+          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -224,6 +282,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7003257" vertical-offset="0" max-vertical-offset="1296">
           <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex9/todo-list/todo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex9/todo-list/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11232449" vertical-offset="0" max-vertical-offset="990">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex9/todo-list/todo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16848674" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
