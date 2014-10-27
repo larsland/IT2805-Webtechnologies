@@ -3,7 +3,8 @@
 <faq>
 	<title>Jackson Electronics</title>
 	<subtitle>Frequently Asked Questions</subtitle>
-	<product name="The ScanMaster">
+	<product>
+		<model>The ScanMaster</model>
 		<question>How do I scan slides?</question>
 		<answer>You can scan slides using the JE Transparency Adapter (part number STA8901)
 		available from Jackson Electronics.</answer>
@@ -16,7 +17,8 @@
 		<answer>You can turn your scanner into a fax machine by purchasing the FaxRight add-on
 		component (part number STA4500) available from Jackson Electronics.</answer>
 	</product>
-	<product name="DigiCam">
+	<product>
+		<model>DigiCam</model>
 		<question>What is the difference between optical and digital zoom?</question>
 		<answer>With optical zoom, the Digicam's lens physically moves inside the camera; with
 		digital zoom, the camera's processor zooms the image electronically. If you zoom
