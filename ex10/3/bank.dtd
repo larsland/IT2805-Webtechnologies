@@ -1,4 +1,4 @@
-<!DOCTYPE bank [
+
 
 <!ELEMENT bank (accounts+)>
 <!ELEMENT accounts (savings_accounts,checking_accounts)>
@@ -15,4 +15,4 @@
 <!ELEMENT address (#PCDATA)>
 
 <!ELEMENT customer_accounts (customer_account)>
-]>
+
