@@ -18,12 +18,12 @@
 <!ELEMENT customer_accounts (customer_account+)>
 <!ELEMENT customer_account EMPTY>
 
-<!ATTLIST savings_account id CDATA #REQUIRED>
-<!ATTLIST savings_account interest CDATA #REQUIRED>
-<!ATTLIST checking_account id CDATA #REQUIRED>
-<!ATTLIST customer id CDATA #REQUIRED>
-<!ATTLIST customer_account customer_id CDATA #REQUIRED>
-<!ATTLIST customer_account account_id CDATA #REQUIRED>
+<!ATTLIST savings_account id ID #REQUIRED>
+          savings_account interest CDATA #REQUIRED>
+<!ATTLIST checking_account id ID #REQUIRED>
+<!ATTLIST customer id ID #REQUIRED>
+<!ATTLIST customer_account customer_id ID #REQUIRED>
+          customer_account account_id ID #REQUIRED>
 
 ]>
 
